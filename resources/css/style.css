@@ -204,6 +204,10 @@ footer img {
 
     }
 
+    .info p{
+        padding-left: .125rem;
+    }
+
     .info {
         width: 100%;
         margin-top: 4rem;
@@ -237,4 +241,15 @@ footer img {
         padding: 4rem 0;
     }
 
+    .logo img{
+        display: none;
+    }
+
+    .logo {
+        margin-left: .25rem;
+    }
+
+    nav {
+        padding-right: 0;
+    }
 }
