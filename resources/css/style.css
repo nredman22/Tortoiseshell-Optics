@@ -183,6 +183,10 @@ footer img {
         background-color: hsla(182, 25%, 50%, .5);
     }
 
+    .dropdown-content p {
+        padding-bottom: 10px;
+
+    }
     .dropdown:hover .dropdown-content {
         display: block;
     }
