@@ -166,6 +166,27 @@ footer img {
 /*mobile friendly*/
 @media only screen and (max-width: 660px) {
 
+    .dropdown {
+        display: block;
+        position: relative;
+        float: right;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        margin-top: 18px;
+        min-width: 160px;
+        padding-left: 5px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        float: left;
+        background-color: hsla(182, 25%, 50%, .5);
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
     #banner {
         background-position: 20%;
         height: 17rem;
@@ -252,4 +273,5 @@ footer img {
     nav {
         padding-right: 0;
     }
+
 }
